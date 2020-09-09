@@ -1,9 +1,15 @@
-## Start stack
+## PHP app:
+http://localhost:8000
+
+## phpmyadmin:
+http://localhost:8080
+
+## Start project
 ```shell
 docker-compose up
 ```
-## Stop stack
 
+## Stop project
 ```shell
 docker-compose down
 ```
@@ -13,8 +19,5 @@ docker-compose down
 docker-compose rm -s -v
 ```
 
-## PHP app:
-http://localhost:8000
-
-## phpmyadmin:
-http://localhost:8080
+#### See more info:
+https://docs.docker.com/compose/reference/overview/
